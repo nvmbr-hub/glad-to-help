@@ -182,6 +182,8 @@ return [
     */
 
     'aliases' => Facade::defaultAliases()->merge([
+        'AboutUs' => App\Http\Controllers\AboutUs::class,
+
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),
 
